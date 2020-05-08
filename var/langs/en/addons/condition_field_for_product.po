@@ -20,3 +20,7 @@ msgstr "Condition field for products"
 msgctxt "Languages::product_condition"
 msgid "Product condition"
 msgstr "Current product condition"
+
+msgctxt "Languages::product_condition_value"
+msgid "Product condition"
+msgstr "Product condition"

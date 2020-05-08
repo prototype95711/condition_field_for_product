@@ -16,15 +16,13 @@ use Tygh\Registry;
 
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
-function condition_field_for_product_get_product_condition_values() {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    return array(CONTROLLER_STATUS_OK);
+}
 
-	$values = array(
-		'destroyed' => __('destroyed'),
-        'poor' => __('poor'),
-        'good' => __('good'),
-        'average' => __('average'),
-        'excellent' => __('excellent')
-	);
+if ($mode == 'view' || $mode == 'quick_view') {
+    
+    $product_condition_values_arr = condition_field_for_product_get_product_condition_values();
 
-	return $values;
+    Tygh::$app['view']->assign('product_condition_values_arr', $product_condition_values_arr);
 }

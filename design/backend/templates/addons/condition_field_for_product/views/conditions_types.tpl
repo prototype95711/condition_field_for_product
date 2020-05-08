@@ -4,11 +4,9 @@
         <label for="product_condition_value" class="control-label">{__("product_condition")}:</label>
         <div class="controls">
             <select name="product_data[product_condition_value]" id="product_condition_value">
-                <option value="destroyed" {if $product_data.product_condition_value == "destroyed"}selected="selected"{/if}>destroyed</option>
-                <option value="poor" {if $product_data.product_condition_value == "poor"}selected="selected"{/if}>poor</option>
-                <option value="good" {if $product_data.product_condition_value == "good"}selected="selected"{/if}>good</option>
-                <option value="average" {if $product_data.product_condition_value == "average"}selected="selected"{/if}>average</option>
-                <option value="excellent" {if $product_data.product_condition_value == "excellent"}selected="selected"{/if}>excellent</option>
+                {foreach from=$product_condition_values_arr key=pcvak item=pcva}
+                    <option value="{$pcvak}" {if $product_data.product_condition_value == $pcvak}selected="selected"{/if}>{$pcva}</option>
+                {/foreach}
             </select>
         </div>
     </div>

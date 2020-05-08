@@ -39,13 +39,7 @@ if ($mode == 'manage') {
     if (!empty($selected_fields['data']['product_condition_value'])) {
         $field_groups['S']['product_condition_value'] = array (
             'name' => 'products_data',
-            'variants' => array (
-                'destroyed' => 'destroyed',
-                'poor' => 'poor',
-                'good' => 'good',
-                'average' => 'average',
-                'excellent' => 'excellent'
-            ),
+            'variants' => condition_field_for_product_get_product_condition_values(),
         );
         $filled_groups['S']['product_condition_value'] = __('product_condition_value');
         unset($field_names['product_condition_value']);
@@ -54,5 +48,11 @@ if ($mode == 'manage') {
     Tygh::$app['view']->assign('field_groups', $field_groups);
     Tygh::$app['view']->assign('filled_groups', $filled_groups);
     Tygh::$app['view']->assign('field_names', $field_names);
+
+} elseif ($mode == 'update') {
+
+    $product_condition_values_arr = condition_field_for_product_get_product_condition_values();
+
+    Tygh::$app['view']->assign('product_condition_values_arr', $product_condition_values_arr);
 
 }

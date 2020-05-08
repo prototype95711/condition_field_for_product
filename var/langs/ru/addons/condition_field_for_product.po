@@ -21,6 +21,22 @@ msgctxt "Languages::product_condition"
 msgid "Product condition"
 msgstr "Состояние"
 
-msgctxt "Languages::product_condition_value"
-msgid "Product condition"
-msgstr "Состояние товара"
+msgctxt "Languages::destroyed"
+msgid "Destroyed"
+msgstr "Ужасно"
+
+msgctxt "Languages::poor"
+msgid "Poor"
+msgstr "Очень плохо"
+
+msgctxt "Languages::good"
+msgid "Good"
+msgstr "Хорошо"
+
+msgctxt "Languages::average"
+msgid "Average"
+msgstr "Сносно"
+
+msgctxt "Languages::excellent"
+msgid "Excellent"
+msgstr "Отлично!"

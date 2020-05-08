@@ -24,3 +24,23 @@ msgstr "Current product condition"
 msgctxt "Languages::product_condition_value"
 msgid "Product condition"
 msgstr "Product condition"
+
+msgctxt "Languages::destroyed"
+msgid "Destroyed"
+msgstr "Destroyed"
+
+msgctxt "Languages::poor"
+msgid "Poor"
+msgstr "Poor"
+
+msgctxt "Languages::good"
+msgid "Good"
+msgstr "Good"
+
+msgctxt "Languages::average"
+msgid "Average"
+msgstr "Average"
+
+msgctxt "Languages::excellent"
+msgid "Excellent"
+msgstr "Excellent"

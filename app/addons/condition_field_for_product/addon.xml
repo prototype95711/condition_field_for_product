@@ -5,5 +5,17 @@
     <description>Добавляет товарам поле с отметкой об их состоянии. </description>
 
     <default_language>ru</default_language>
+
+    <queries>
+        <item>
+            CREATE TABLE `?:products_conditions` (
+                `cond_id` mediumint(8) unsigned NOT NULL auto_increment,
+                `product_id` mediumint(8) unsigned NOT NULL default '0',
+                `product_condition_value` varchar(32) NOT NULL default '',
+                PRIMARY KEY  (`cond_id`)
+            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:products_conditions;</item>
+    </queries>
     
 </addon>

@@ -9,7 +9,7 @@ msgctxt "Addons::name::condition_field_for_product"
 msgid "Condition field for products"
 msgstr "Condition field for products"
 
-msgctxt "Addons::description::condition_field_for_productt"
+msgctxt "Addons::description::condition_field_for_product"
 msgid "Adds a field to products with a mark about their condition."
 msgstr "Adds a field to products with a mark about their condition."
 

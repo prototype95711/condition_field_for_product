@@ -5,6 +5,8 @@
     <description>Adds a field to products with a mark about their condition.</description>
 
     <default_language>ru</default_language>
+    <version>1.0</version>
+    <status>active</status>
 
     <queries>
         <item>

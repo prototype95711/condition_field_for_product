@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>condition_field_for_product</id>
+    <name>Состояние товара</name>
+    <description>Добавляет товарам поле с отметкой об их состоянии. </description>
+
+    <default_language>ru</default_language>
+    
+</addon>

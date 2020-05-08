@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+
+msgctxt "Addons::name::condition_field_for_product"
+msgid "Condition field for products"
+msgstr "Состояние товара"
+
+msgctxt "Addons::description::condition_field_for_product"
+msgid "Adds a field to products with a mark about their condition."
+msgstr "Добавляет товарам поле с отметкой об их состоянии."
+
+msgctxt "Languages::condition_field_product"
+msgid "Condition field for products"
+msgstr "Модуль Состояние товара"
+
+msgctxt "Languages::product_condition"
+msgid "Product condition"
+msgstr "Состояние"

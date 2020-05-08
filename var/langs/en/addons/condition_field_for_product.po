@@ -1,0 +1,22 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::condition_field_for_product"
+msgid "Condition field for products"
+msgstr "Condition field for products"
+
+msgctxt "Addons::description::condition_field_for_productt"
+msgid "Adds a field to products with a mark about their condition."
+msgstr "Adds a field to products with a mark about their condition."
+
+msgctxt "Languages::condition_field_product"
+msgid "Condition field for products"
+msgstr "Condition field for products"
+
+msgctxt "Languages::product_condition"
+msgid "Product condition"
+msgstr "Current product condition"

@@ -8,14 +8,13 @@
 
     <queries>
         <item>
-            CREATE TABLE `?:products_conditions` (
-                `cond_id` mediumint(8) unsigned NOT NULL auto_increment,
-                `product_id` mediumint(8) unsigned NOT NULL default '0',
-                `product_condition_value` varchar(32) NOT NULL default '',
-                PRIMARY KEY  (`cond_id`)
-            ) ENGINE=MyISAM DEFAULT CHARSET UTF8;
+            ALTER TABLE `?:products`
+                ADD `product_condition_value` varchar(32)
         </item>
-        <item for="uninstall">DROP TABLE IF EXISTS ?:products_conditions;</item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+                DROP COLUMN `product_condition_value`;
+        </item>
     </queries>
     
 </addon>

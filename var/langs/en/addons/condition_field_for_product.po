@@ -10,8 +10,8 @@ msgid "Condition field for products"
 msgstr "Condition field for products"
 
 msgctxt "Addons::description::condition_field_for_product"
-msgid "Adds a field to products with a mark about their condition."
-msgstr "Adds a field to products with a mark about their condition."
+msgid "Adds a field to products with a mark about their condition, allows to edit it, including in multi-upgrade mode, provides opportunities for import/export of this field."
+msgstr "Adds a field to products with a mark about their condition, allows to edit it, including in multi-upgrade mode, provides opportunities for import/export of this field."
 
 msgctxt "Languages::condition_field_product"
 msgid "Condition field for products"

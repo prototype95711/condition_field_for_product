@@ -2,7 +2,7 @@
 <addon scheme="3.0">
     <id>condition_field_for_product</id>
     <name>Condition field for products</name>
-    <description>Adds a field to products with a mark about their condition.</description>
+    <description>Adds a field to products with a mark about their condition, allows to edit it, including in multi-upgrade mode, provides opportunities for import/export of this field.</description>
 
     <default_language>ru</default_language>
     <version>1.0</version>

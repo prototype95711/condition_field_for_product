@@ -18,13 +18,13 @@ if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 function condition_field_for_product_get_product_condition_values() {
 
-	$values = array(
-		'destroyed' => __('destroyed'),
+    $values = array(
+        'destroyed' => __('destroyed'),
         'poor' => __('poor'),
         'good' => __('good'),
         'average' => __('average'),
         'excellent' => __('excellent')
-	);
+    );
 
-	return $values;
+    return $values;
 }

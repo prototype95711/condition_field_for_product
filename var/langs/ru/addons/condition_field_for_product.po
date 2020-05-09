@@ -17,6 +17,10 @@ msgctxt "Languages::condition_field_product"
 msgid "Condition field for products"
 msgstr "Модуль Состояние товара"
 
+msgctxt "Languages::product_condition_value"
+msgid "Product condition"
+msgstr "Состояние товара"
+
 msgctxt "Languages::product_condition"
 msgid "Product condition"
 msgstr "Состояние"

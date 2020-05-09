@@ -36,10 +36,12 @@ if ($mode == 'manage') {
     $filled_groups = Tygh::$app['view']->getTemplateVars('filled_groups');
     $field_names = Tygh::$app['view']->getTemplateVars('field_names');
 
+    $conditions = fn_get_schema('data', 'conditions');
+
     if (!empty($selected_fields['data']['product_condition_value'])) {
         $field_groups['S']['product_condition_value'] = array (
             'name' => 'products_data',
-            'variants' => condition_field_for_product_get_product_condition_values(),
+            'variants' => $conditions,
         );
         $filled_groups['S']['product_condition_value'] = __('product_condition_value');
         unset($field_names['product_condition_value']);

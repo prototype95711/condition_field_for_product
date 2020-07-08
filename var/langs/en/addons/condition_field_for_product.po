@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+
+msgctxt "Addons::name::condition_field_for_product"
+msgid "Condition field for products"
+msgstr "Condition field for products"
+
+msgctxt "Addons::description::condition_field_for_product"
+msgid "Adds a field to products with a mark about their condition, allows to edit it, including in multi-upgrade mode, provides opportunities for import/export of this field."
+msgstr "Adds a field to products with a mark about their condition, allows to edit it, including in multi-upgrade mode, provides opportunities for import/export of this field."
+
+msgctxt "Languages::condition_field_product"
+msgid "Condition field for products"
+msgstr "Condition field for products"
+
+msgctxt "Languages::product_condition"
+msgid "Product condition"
+msgstr "Current product condition"
+
+msgctxt "Languages::product_condition_value"
+msgid "Product condition"
+msgstr "Product condition"
+
+msgctxt "Languages::destroyed"
+msgid "Destroyed"
+msgstr "Destroyed"
+
+msgctxt "Languages::poor"
+msgid "Poor"
+msgstr "Poor"
+
+msgctxt "Languages::good"
+msgid "Good"
+msgstr "Good"
+
+msgctxt "Languages::average"
+msgid "Average"
+msgstr "Average"
+
+msgctxt "Languages::excellent"
+msgid "Excellent"
+msgstr "Excellent"

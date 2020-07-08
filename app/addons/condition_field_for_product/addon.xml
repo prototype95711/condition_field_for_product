@@ -1,9 +1,22 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>condition_field_for_product</id>
-    <name>Состояние товара</name>
-    <description>Добавляет товарам поле с отметкой об их состоянии. </description>
+    <name>Condition field for products</name>
+    <description>Adds a field to products with a mark about their condition, allows to edit it, including in multi-upgrade mode, provides opportunities for import/export of this field.</description>
 
     <default_language>ru</default_language>
+    <version>1.0</version>
+    <status>active</status>
+
+    <queries>
+        <item>
+            ALTER TABLE `?:products`
+                ADD `product_condition_value` varchar(32)
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+                DROP COLUMN `product_condition_value`;
+        </item>
+    </queries>
     
 </addon>

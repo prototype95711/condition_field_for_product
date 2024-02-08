@@ -1,6 +1,6 @@
 # Condition field for products
 
-This is a module for CS-Cart 4.11.3
+Addon for CS-Cart 4.11.3
 
 Author: Gleb Perfilyev
 
